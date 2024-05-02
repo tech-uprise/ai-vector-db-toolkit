@@ -22,7 +22,7 @@ pip install pinecone-client pinecone-text
 ```python
 from langchain_pinecone import PineconeVectorStore
 
-# Install & Launch Jupyter
+# Install & Launch Jupyter - https://jupyter.org/install
 
 JupyterLab provides an interactive environment for working with Jupyter notebooks:
 
@@ -33,13 +33,17 @@ pip install jupyterlab
 jupyter lab
 
 # Install Jupyter Notebook
-
-# For the classic Jupyter Notebook interface:
 pip install notebook
 
-# Optional: Install Voilà
-Voilà turns Jupyter notebooks into standalone web applications:
+#Launch Notebook
+jupyter notebook
+
+# Optional: Install Voilà: Voilà turns Jupyter notebooks into standalone web applications:
+
+# Install voila
 pip install voila
+
+#Launch voila
 voila
 
 # Using Homebrew for Jupyter Installation
@@ -50,7 +54,11 @@ brew install jupyterlab
 # Additional Information:
 
 1. JupyterLab Extensions: JupyterLab can be customized with extensions. For installation instructions, refer to the JupyterLab documentation.
+
 2. Pinecone Integration: For detailed examples of integrating Pinecone with LangChain and other tools, visit the Pinecone documentation.
+
 3. Troubleshooting: If you encounter issues with pip commands, ensure that Python and pip are correctly installed and accessible in your PATH. For Homebrew users, follow the post-installation instructions to add Python to your PATH.
+
 4. This guide aims to provide a smooth setup process for developers looking to work with Python, Pinecone, and Jupyter. For more detailed instructions and troubleshooting tips, refer to the official documentation of each tool.
+
 
